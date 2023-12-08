@@ -27,7 +27,7 @@ background_image = pygame.image.load('imgs/fondo.jpg').convert()
 imagen_redimensionada = pygame.transform.scale(background_image, (WIDTH, HEIGHT))
 
 #Nombre de Juego
-pygame.display.set_caption("Croco Python Game")
+pygame.display.set_caption("Croco Python Game - Diana Serrano")
 
 #Definir variables de movimiento
 keys = {pygame.K_w: False, pygame.K_s: False, pygame.K_a: False, pygame.K_d: False}
